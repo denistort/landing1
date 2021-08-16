@@ -1,0 +1,126 @@
+.slider-2 .slick-dots{
+    list-style-type: none;
+    width: 284px;
+    border-radius: 50%;
+    position: static;
+    bottom: 74px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 15;
+    left: calc(50% - 152px);
+    margin: 20px auto;
+    padding-bottom: 50px;
+}
+
+.slider-2 .slick-dots ul li{
+    font-size: 0;
+}
+.slider-2{
+    min-height: 500px;
+}
+.slick-prev .slick-next{
+    font-size: 0;
+    font-size:0;
+    padding:0;
+    padding: 0;
+    border: none;
+    font: 0;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.slick-prev{
+    background-image: url('../img/slider2/back.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    top: 71%;
+    left: 37%;
+    z-index: 1000;
+}
+
+.slick-next{
+    background-image: url('../img/slider2/forward.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 71%;
+    right: 38%;
+    z-index: 1000;
+}
+.slick-arrow{
+    font-size: 0;
+    font-size:0;
+    padding:0;
+    padding: 0;
+    border: none;
+    font: 0;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+
+    width: 12px;
+    height: 20px;
+    position: absolute;
+}
+.slider-2 .slick-dots button {
+    font-size:0;
+    padding:0;
+    padding: 0;
+    border: none;
+    font: 0;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.slider-2 .slick-dots button{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: .3s ease;
+}
+
+#slick-slide-control10{
+    background-image: url('../img/slider2/PUT YOUR IMAGE HERE-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#slick-slide-control11{
+    background-image: url('../img/slider2/PUT YOUR IMAGE HERE-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#slick-slide-control12{
+    background-image: url('../img/slider2/PUT YOUR IMAGE HERE-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#slick-slide-control13{
+    background-image: url('../img/slider2/PUT YOUR IMAGE HERE-4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#slick-slide-control14{
+    background-image: url('../img/slider2/PUT YOUR IMAGE HERE.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+.slider-2 .slick-active > button {
+    border: none;
+    width: 50px;
+    height: 50px;
+}

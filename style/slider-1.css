@@ -1,0 +1,83 @@
+.slider-background{
+    width: 100%;
+    height: 670px;
+    position: absolute;
+    top: 0;
+}
+.slider-block-1, .slider-block-2, .slider-block-3, .slider-block-4{
+    width: 100%;
+    height: 670px;
+    position: relative;
+}
+
+.slider-block-1{
+    width: 100%;
+    height: 670px;
+    background: url(../img/slider-main/1bg.png) no-repeat center/cover;
+    display: block;
+}
+
+.slider-block-2{
+    width: 100%;
+    height: 670px;
+    background: url(../img/slider-main/2bg.jpg) no-repeat center/cover;
+    display: block;
+}
+
+.slider-block-3{
+    width: 100%;
+    height: 670px;
+    background: url(../img/slider-main/3bg.jpg) no-repeat center/cover;
+}
+
+.slider-block-4{
+    width: 100%;
+    height: 670px;
+    background: url(../img/slider-main/4bg.jpg) no-repeat center/cover;
+}
+
+.conta{
+    width: 100%;
+    height: 670px;
+    background: url(../img/overlay.png) no-repeat center/cover;
+}
+
+
+.slider-background .slick-dots{
+    list-style-type: none;
+    width: 55px;
+    position: absolute;
+    bottom: 82px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 15;
+    left: calc(50% - 27.5px);
+    bottom: 60px;
+}
+
+.slider-background .slick-dots ul li{
+    font-size: 0;
+}
+
+.slider-background .slick-dots button {
+    font-size:0;
+    padding:0;
+    padding: 0;
+    border: none;
+    font: 0;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.slider-background .slick-dots button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.slider-background .slick-active > button {
+    border: none;
+    background-color: rgba(0, 224, 208, 1);
+}
